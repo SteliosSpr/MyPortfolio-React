@@ -1,0 +1,18 @@
+footer {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 30px;
+}
+
+footer p {
+	font-size: 10px;
+}
+
+.footer-linkedin-icon,
+.footer-github-icon {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	padding-right: 30px;
+}

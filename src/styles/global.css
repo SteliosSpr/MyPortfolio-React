@@ -1,0 +1,20 @@
+* {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-weight: 100;
+	color: rgba(107, 107, 107, 1);
+}
+
+@media screen and (min-width: 700px) {
+	p {
+		font-weight: normal;
+	}
+}

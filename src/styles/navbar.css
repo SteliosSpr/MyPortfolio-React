@@ -1,0 +1,139 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px 10px 0;
+	background-color: rgb(255, 255, 255);
+	z-index: 1;
+}
+
+.logo-container {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 10px;
+}
+
+.logo-container a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.nav-name {
+	font-size: small;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+.logo-container span:hover {
+	color: rgba(255, 128, 0, 1);
+}
+
+.menu-container {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	width: 100%;
+}
+
+.menu-container.visible {
+	display: block;
+}
+
+.menu-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 0;
+	padding-left: 0;
+	list-style: none;
+	background-color: rgb(255, 255, 255);
+}
+
+.menu-links li {
+	border-top: 1px solid rgba(174, 172, 173, 1);
+	text-align: right;
+}
+
+.menu-links a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 45px;
+	text-align: right;
+	font-size: medium;
+	font-weight: bold;
+	transition: 0.3s;
+	display: block;
+}
+
+.menu-links a:hover {
+	color: rgba(255, 128, 0, 1);
+}
+
+.menu-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-right: 25px;
+	display: block;
+}
+
+.menu-icon {
+	width: 25px;
+	height: 20px;
+}
+
+@media screen and (min-width: 700px) {
+	.navbar {
+		padding: 20px;
+	}
+
+	.nav-name {
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.menu-container {
+		position: static;
+		display: block;
+	}
+
+	.menu-button {
+		display: none;
+	}
+
+	.menu-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		margin-bottom: 0;
+	}
+
+	.menu-links a {
+		padding: 0;
+		margin: 0;
+	}
+
+	.menu-links li {
+		border-top: 0;
+		width: fit-content;
+		margin-right: 60px;
+	}
+}
