@@ -77,7 +77,7 @@ function App() {
 						element={
 							<ProjectInformation
 								projectName="Myportfolio"
-								projectGitHubLink=""
+								projectGitHubLink="https://github.com/SteliosSpr/MyPortfolio-React"
 								imagePath="/assets/vue-app.png"
 								paragraphContent="<p>MyPortfolio is a project i developed in order to learn and get familiar with React. It is a Website that serves as my Portfolio and displays information about me.</p><br/><p>It has the following sections: Home, About, Projects and Contact. Also, in the Projects section the user can click the project which he is interested about and go to another page, containing more information about this and the projects' GitHub link. Also the user can fill in the contact form in order to reach out to me.</p><br/><p>In this Project i used React, but for some functionalities i implemented Routing, EmailJS and more. </p>"
 								techName1="React"
