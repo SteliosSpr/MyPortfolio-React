@@ -62,7 +62,7 @@ const ProjectInformation = ({
 					{techName6.length !== 0 && <div>{techName6}</div>}
 					{techName7.length !== 0 && <div>{techName7}</div>}
 				</div>
-				<Link to="/#">Go Back</Link>
+				<Link to="/MyPortfolio-React/#">Go Back</Link>
 			</div>
 		</div>
 	);

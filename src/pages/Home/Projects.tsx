@@ -13,27 +13,27 @@ const Projects = () => {
 				</p>
 			</div>
 			<div className="projects-content-container">
-				<img src="/assets/vue-app.png" alt="" />
+				<img src="/MyPortfolio-React/assets/vue-app.png" alt="" />
 				<div className="projects-information">
 					<h3>SimpleTask</h3>
 					<p>SimpleTask is a project i developed, in order to learn Vue.js .</p>
-					<Link to="/simpleTask#">MORE</Link>
+					<Link to="/MyPortfolio-React/simpleTask#">MORE</Link>
 				</div>
 			</div>
 			<div className="projects-content-container">
-				<img src="/assets/angular-app.png" alt="" />
+				<img src="/MyPortfolio-React/assets/angular-app.png" alt="" />
 				<div className="projects-information">
 					<h3>Game Bay</h3>
 					<p>Game Bay is a project i developed, in order to learn Angular.</p>
-					<Link to="/gameBay#">MORE</Link>
+					<Link to="/MyPortfolio-React/gameBay#">MORE</Link>
 				</div>
 			</div>
 			<div className="projects-content-container">
-				<img src="/assets/react-app.png" alt="" />
+				<img src="/MyPortfolio-React/assets/react-app.png" alt="" />
 				<div className="projects-information">
 					<h3>MyPortfolio</h3>
 					<p>MyPortfolio is a project i developed, in order to learn React.</p>
-					<Link to="/myPortfolio#">MORE</Link>
+					<Link to="/MyPortfolio-React/myPortfolio#">MORE</Link>
 				</div>
 			</div>
 		</div>

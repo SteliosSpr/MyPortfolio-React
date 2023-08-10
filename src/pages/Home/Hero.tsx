@@ -23,7 +23,7 @@ const Hero = () => {
 				I am a Front-End Web Developer trying to build beautiful Responsive
 				Websites, in order companies to achieve their goals faster.
 			</p>
-			<Link to="#projects" smooth>
+			<Link to="/MyPortfolio-React/#projects" smooth>
 				PROJECTS
 			</Link>
 			<div className="hero-side-container">

@@ -13,30 +13,34 @@ const NavBar = () => {
 	return (
 		<nav className="navbar">
 			<div className="logo-container">
-				<Link to="/#">
-					<img src="/assets/logo-image.jpeg" alt="Logo" className="logo" />
+				<Link to="/MyPortfolio-React/#">
+					<img
+						src="/MyPortfolio-React/assets/logo-image.jpeg"
+						alt="Logo"
+						className="logo"
+					/>
 					<span className="nav-name">STELIOS SPYROU</span>
 				</Link>
 			</div>
 			<div className={`menu-container ${menuVisible ? "visible" : ""}`}>
 				<ul className="menu-links">
 					<li>
-						<Link to="/#" onClick={toggleMenu}>
+						<Link to="/MyPortfolio-React/#" onClick={toggleMenu}>
 							HOME
 						</Link>
 					</li>
 					<li>
-						<Link to="/#about" smooth onClick={toggleMenu}>
+						<Link to="/MyPortfolio-React/#about" smooth onClick={toggleMenu}>
 							ABOUT
 						</Link>
 					</li>
 					<li>
-						<Link to="/#projects" smooth onClick={toggleMenu}>
+						<Link to="/MyPortfolio-React/#projects" smooth onClick={toggleMenu}>
 							PROJECTS
 						</Link>
 					</li>
 					<li>
-						<Link to="/#contact" smooth onClick={toggleMenu}>
+						<Link to="/MyPortfolio-React/#contact" smooth onClick={toggleMenu}>
 							CONTACT
 						</Link>
 					</li>
