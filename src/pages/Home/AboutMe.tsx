@@ -23,24 +23,30 @@ const AboutMe = () => {
 				<div className="about-me-information-container">
 					<h3>Learn some things about me</h3>
 					<p>
-						I am a <strong>Front-End Web Developer</strong>, building beautiful
-						Responsive Front-End Websites and Web Applications that result to
-						faster achievement of the Company's goals.
+						Hi there! I am Stelios Spyrou and i am thrilled to share a bit about
+						myself. I attend University of Piraeus in{" "}
+						<strong>Digital Systems</strong>, where i developed a strong
+						foundation. My journey to front-end development began with a
+						fascination for crafting web interfaces that not only look
+						aesthetically pleasing but also provide seamless user experiences.
 					</p>
 					<p>
-						I have not so much work experience, but i always try to learn new
-						technologies and develop my existing skills. So in{" "}
-						<strong>PROJECTS</strong> section you can find some projects that i
-						have created using different <strong>technologies</strong>.
+						I am on a continuous learning journey, exploring new technologies
+						and staying up-to-date with the latest trends to deliver the best
+						solutions. In the future, I aspire to become a highly capable and
+						irreplaceable member of the company that i will work, in order to
+						take on new challenges and provide the best possible results for
+						both me and them.
 					</p>
 					<p>
-						Finally, if you are <strong>interested</strong> to learn more about
-						me, you can contact me either from the{" "}
+						Finally, I'd love to connect with fellow developers, designers, or
+						potential collaborators. So, feel free to <strong>reach out</strong>
+						, either from the{" "}
 						<strong className="word-link" onClick={handleClickLink}>
 							LinkedIn
 						</strong>{" "}
 						or by sending me email from the <strong>CONTACT form</strong> of
-						this Website.
+						this Website, in order to create something amazing together.
 					</p>
 					<Link to="#contact" smooth>
 						CONTACT

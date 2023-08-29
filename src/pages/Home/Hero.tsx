@@ -17,11 +17,12 @@ const Hero = () => {
 
 	return (
 		<div className="hero-container">
-			<h1>HI, MY NAME IS STELIOS SPYROU</h1>
+			<h1>HI, I AM STELIOS SPYROU</h1>
 			<br />
 			<p>
-				I am a Front-End Web Developer trying to build beautiful Responsive
-				Websites, in order companies to achieve their goals faster.
+				I am a Front-End Developer, passionate in creating visually stunning and
+				highly functional websites. So, feel free to explore my portfolio below
+				or connect with me to discuss potential collaborations.
 			</p>
 			<Link to="/MyPortfolio-React/#projects" smooth>
 				PROJECTS

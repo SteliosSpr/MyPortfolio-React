@@ -62,8 +62,8 @@ const Contact = () => {
 				<h1>CONTACT</h1>
 				<hr />
 				<p>
-					If you want to contact me, please fill in the form below and i will
-					reach out as soon as possible.
+					Feel free to use the form below to get in touch and i will reach out
+					as soon as possible.
 				</p>
 			</div>
 			<div className="contact-form-container">

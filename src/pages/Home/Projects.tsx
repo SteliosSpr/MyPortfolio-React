@@ -8,8 +8,8 @@ const Projects = () => {
 				<h1>PROJECTS</h1>
 				<hr />
 				<p>
-					Here you can see some of the projects that i have worked with, as well
-					as pieces of information and link for every one of them.
+					Here you can explore a collection of my web development projects, as
+					well as pieces of information and link for every one of them.
 				</p>
 			</div>
 			<div className="projects-content-container">
